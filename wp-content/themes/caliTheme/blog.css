@@ -1,0 +1,298 @@
+#about {
+  background-color:rgba(39,39,39,1);
+  clear: both;
+  margin-left: -24px;
+  margin-top: 60px;
+  padding: 60px 0px 20px 50px;
+}
+
+#about > h1, #about > h4 {
+  color:white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #555;
+}
+
+#bottom-button {
+    position: absolute;
+    bottom: 0;
+    right: 17px;
+}
+
+
+
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+}
+
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+  padding-right: 0;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.col-sm-8 {
+  padding-left: 45px;
+}
+.container-fluid{
+  padding-right:0;
+  padding-left:0;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+
+#header-img {
+    background-image: url("images/ggbridge.jpg");
+
+    /* Set a specific height */
+    height: 600px; 
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#middle-button {
+    position: relative;
+    bottom: -24px;
+    right: 17px;
+}
+.modalbox {
+  display: none;
+  position: relative;
+  z-index: 9999;
+  width: 273px;
+  height: 199px;
+  top: -160px;
+  left: 0;
+  color: #333333;
+}
+
+.modalbox .box {
+  background-color: rgba(0,0,0,0.7);
+  margin: 0 auto;
+  min-width: 210px;
+  padding: 20px;
+  width: 30%;
+}
+
+.modalbox .title {
+  border-bottom: 1px solid #ccc;
+  font-family: verdana;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  margin: 0;
+  padding: 0 0 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.modalbox .content {
+  display: block;
+  font-family: verdana;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 10px 0 0;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+.navbar {
+  border: 0;
+  border-radius: 0;
+  padding-left: 15px;
+}
+
+.navbar-inverse {
+  background-color: #292027;
+}
+
+.navbar-nav {
+  margin: 7.5px 0px;
+}
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+.photos { 
+    border-radius: 200px;
+    width: 200px;
+    margin: 10px 10px 40px 10px;
+}
+
+
+#portfolio {
+  padding-top: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#portfolio-wrapper {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+  padding-top: 40px;
+}
+
+.portfolio {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.portfolio-img {
+  margin:0;
+  width: 283px;
+  height: 209px;
+}
+
+.row{
+  margin-right: 0;
+}
+
+
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+.skills {
+  margin-right: 10px;
+  width: 80px;
+}
+
+#team {
+  margin: 20px auto; 
+  max-width: 1000px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+#top-button {
+    position: relative;
+    top: -110px;
+    right: 17px;
+}
+
+.up {
+  float: right;
+  width: 50px;
+}
+/*
+ * Override Bootstrap's default container.
+ */
+@media (max-width: 768px){
+   #header-img {
+      background-attachment: scroll;
+  }
+}
+@media (min-width: 768px)
+{
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0;
+  }  
+  .navbar-right {
+    margin-right: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
